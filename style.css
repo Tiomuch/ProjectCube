@@ -1,0 +1,118 @@
+.column {
+	width: 50px;
+	height: 50px;
+	background-color: #4cabe3;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.buttonAddColumn {
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	user-select: none;
+	display: inline-block;
+	outline: none;
+	text-align: center;
+	background-color: #f49f28;
+	color: white;
+	transition: background-color 1s linear;
+	cursor: pointer;
+	border: 0px;
+	position: absolute;
+	right: -52px;
+	top: 3px;
+}
+
+.buttonAddColumn:hover {
+	background-color: #f5c154;
+}
+
+.buttonAddLine {
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	user-select: none;
+	display: inline-block;
+	outline: none;
+	text-align: center;
+	background-color: #f49f28;
+	color: white;
+	transition: background-color 1s linear;
+	cursor: pointer;
+	border: 0px;
+	position: absolute;
+	left: 2px;
+	bottom: -52px;
+}
+
+.buttonAddLine:hover {
+	background-color: #f5c154;
+}
+
+.buttonDeleteColumn {
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	user-select: none;
+	display: none;
+	outline: none;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #b00000;
+	color: white;
+	position: absolute;
+	border-bottom: 0px;
+	transition: background-color 1s linear;
+	cursor: pointer;
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	top: -51px;
+	left: 0px;
+}
+
+.buttonDeleteColumn:hover {
+	background-color: #cc4c4b;
+}
+
+.buttonDeleteLine {
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	user-select: none;
+	display: none;
+	outline: none;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #b00000;
+	color: white;
+	position: absolute;
+	margin-top: 52px;
+	border-right: 0px;
+	transition: background-color 1s linear;
+	cursor: pointer;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	left: -51px;
+	top: 0px;
+}
+
+.buttonDeleteLine:hover {
+	background-color: #cc4c4b;
+}
+
+.main {
+	display: inline-block;
+	position: relative;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.table {
+	border: 1px solid grey;
+	border-collapse: separate;
+    border-spacing: 2px;
+}
